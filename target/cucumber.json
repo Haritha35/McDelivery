@@ -1,0 +1,120 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 14963704300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.intitialize()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Successful Login into McDelivery",
+        "description": "",
+        "id": "perform-all-functions-of-the-application;successful-login-into-mcdelivery",
+        "after": [
+          {
+            "result": {
+              "duration": 60100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.end()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 346372600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I will be on SignUp Page",
+            "match": {
+              "location": "StepDefinitions.i_will_be_on_SignUp_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 354061700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter mobile \"9866504885\" and enter password \"Haritha35$\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"9866504885\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"Haritha35$\"",
+                  "offset": 47
+                }
+              ],
+              "location": "StepDefinitions.i_enter_mobile_and_enter_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 80771700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on Login",
+            "match": {
+              "location": "StepDefinitions.i_click_on_Login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4178395600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I will be logged into my account",
+            "match": {
+              "location": "StepDefinitions.i_will_be_logged_into_my_account()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CompleteTest"
+          },
+          {
+            "name": "@SuccessfulLogin"
+          }
+        ]
+      }
+    ],
+    "name": "Perform all functions of the Application",
+    "description": "",
+    "id": "perform-all-functions-of-the-application",
+    "keyword": "Feature",
+    "uri": "resources/featurefile.feature",
+    "tags": [
+      {
+        "name": "@CompleteTest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

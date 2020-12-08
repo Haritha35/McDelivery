@@ -4,11 +4,11 @@ import cucumber.api.junit.Cucumber;
 import cucumber.api.CucumberOptions;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(
+@CucumberOptions(plugin = {"json:target/cucumber.json"},
 		features = "resources"
 		,glue={"steps"}
 		//,tags={"@FirstScenario , @SecondScenario"}
-		,tags={"@CompleteTest"}
+		,tags={"@SuccessfulLogin"}
 		)
 
 
